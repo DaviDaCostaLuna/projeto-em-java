@@ -43,7 +43,6 @@ public class ContatoDAO implements DAO<Contato> {
         return true;
     }
 
-    // ----- Desafios -----
 
     public ArrayList<Contato> listarTodos() {
         return new ArrayList<>(lista);
